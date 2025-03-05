@@ -236,5 +236,45 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "byline",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "author_image",
+        "label": "Author Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author_name",
+        "label": "Author Name",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author_title",
+        "label": "Author Title/Role",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "publication_date",
+        "label": "Publication Date",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "reading_time",
+        "label": "Reading Time (minutes)",
+        "value": ""
+      }
+    ]
   }
 ]
